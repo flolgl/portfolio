@@ -1,0 +1,66 @@
+.hero{
+    margin: 3em;
+}
+
+.hero-container{
+    padding-top: 3em;
+}
+
+.hero-text{
+    font-weight: 500 !important;
+}
+
+.hero-container{
+    padding-top: 3em;
+}
+
+.hero-text{
+    font-weight: 500 !important;
+}
+
+.presentation{
+    margin: 4rem 3rem 0rem 3rem;
+    position: relative;
+    z-index: -1;
+}
+
+.skill-bg{
+    background-color: rgb(39, 39, 39);
+    color:#fff;
+    max-width: 1500px;
+    border-radius: 12px;
+    margin: 0 2rem 0 2rem !important;
+    width: 100%;
+}
+
+.presentation-hero{
+    font-weight: 500 !important;
+    padding: 3rem 0 1rem 0;
+
+}
+
+.presentation-text{
+    padding: 0 0 9rem 0;
+}
+
+.col-skills{
+    padding:1.5rem 0 3rem 0
+}
+
+.col1{
+    border-right:0.5px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 3rem;
+
+}
+.col2{
+    border-right:0.5px solid rgba(255, 255, 255, 0.05);
+    border-left:0.5px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 3rem;
+
+}
+.col3{
+    border-left:0.5px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 3rem;
+
+}
+

@@ -1,0 +1,98 @@
+body {
+    min-width: 360px;
+    margin:0;
+    padding: 0;
+    border:0;
+    font:inherit;
+    box-sizing:border-box;
+    height: 100vh;
+    color:#575e73;
+}
+html{
+    font-family: "Poppins";
+}
+
+.container-fluid .navbar-brand img{
+    width: auto;
+    height: 50px;
+}
+
+
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.55);
+}
+
+
+
+
+.link-nav{
+    font-size: 17px;
+    color:#333232;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    text-align: center;
+    position: relative;
+}
+.link-nav:hover{
+    color: #272727 !important;
+
+}
+
+@media (min-width: 992px) {
+    nav .container-fluid{
+        position:relative;
+    }
+
+    .logo-flo{
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+
+    .link-nav:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        background: #272727;
+        transition: width 0.35s ease-in-out 0s, left 0.35s ease-in-out 0s;
+        width: 0;
+    }
+    .link-nav:hover:after { 
+        width: 100%; 
+        left: 0; 
+
+    }
+    .mx-auto{  
+        margin-right:none;
+        margin-left: none;
+    }
+
+}
+
+.navbar-hamburger{
+    border:none !important;
+    box-shadow: 0;
+}
+
+.navbar-hamburger:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+@media (max-width: 992px) {
+
+    .link-nav{
+        text-align: left;
+    }
+    .mx-auto{  
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+

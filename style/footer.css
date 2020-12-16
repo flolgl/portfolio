@@ -1,0 +1,29 @@
+.footer-container{
+    background-color: rgb(39, 39, 39);
+    padding: 2rem 4rem 0 4rem !important;
+    margin-top: 9rem;
+}
+
+.footer-container::before {
+    background-color:rgb(62, 66, 68);;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 0 auto 0.5rem;
+    position: relative;
+    width: 70px;
+}
+
+.flex-footer{
+    margin:0 13rem 0 13rem;
+}
+
+.footer-icon{
+    transition: fill 0.3s ease;
+}
+
+.footer-link:hover .footer-icon{
+    fill:#fff;
+    transition: 0.3s ease;
+}
+

@@ -1,0 +1,138 @@
+.hero{
+    margin: 3em;
+}
+
+.hero-container{
+    padding-top: 3em;
+}
+
+.hero-text{
+    font-weight: 500 !important;
+}
+
+.lead{
+    font-size: 1.5rem !important;
+}
+
+
+
+@media (min-width: 992px) {
+    .avatar{
+        width: 260px;
+    }
+}
+
+@media (max-width: 992px) {
+    .avatar{
+        width: 200px;
+    }
+}
+
+
+    
+.presentation{
+    margin: 9rem 3rem 0rem 3rem;
+    position: relative;
+    z-index: -1;
+}
+
+.presentation-bg{
+    background-color: rgb(39, 39, 39);
+    color:#fff;
+    padding: 6rem 3rem 0 3rem;
+    max-width: 1500px;
+    border-radius: 12px;
+}
+
+.presentation-hero{
+    font-weight: 500 !important;
+    padding: 3rem 0 1rem 0;
+
+}
+
+.presentation-text{
+    padding: 0 0 9rem 0;
+}
+
+.avatar-container{
+    position:absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+}
+
+.skills-hobby{
+    margin: -10rem 3rem 3rem 3rem;
+    padding: 4rem 5rem 0 5rem;
+}
+
+.skill-container{
+    max-width: 1200px;
+    margin: 0 10rem;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #e2eafa;
+
+}
+
+.skill-icon{
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+
+}
+
+.grad-icon{
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+
+}
+
+.icon-container{
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.skills-hero{
+    font-weight: 600 !important;
+}
+
+.col1{
+    border-right:0.5px solid rgba(0,0,0,0.05);
+    padding-bottom: 3rem;
+
+}
+.col2{
+    border-right:0.5px solid rgba(0,0,0,0.05);
+    border-left:0.5px solid rgba(0,0,0,0.05);
+    padding-bottom: 3rem;
+
+}
+.col3{
+    border-left:0.5px solid rgba(0,0,0,0.05);
+    padding-bottom: 3rem;
+
+}
+
+/* Border des colones quand screen trop petit*/
+@media (max-width: 581px) {
+    .col3{
+        border-top:0.5px solid rgba(0,0,0,0.05);
+    
+    }
+}
+
+@media (max-width: 462px) {
+    .col2{
+        border-top:0.5px solid rgba(0,0,0,0.05);
+    
+    }
+}
+.skill-icon:hover, .grad-icon:hover{
+    fill: #212529;
+    transition: 0.3s ease;
+}

@@ -22,6 +22,10 @@ html{
 	color: rgba(0,0,0,.55);
 }
 
+.dropdown-toggle::after{
+    border:none !important;
+    margin:0 !important;
+}
 
 
 

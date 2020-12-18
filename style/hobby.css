@@ -1,0 +1,105 @@
+.hero{
+    margin: 3em;
+}
+
+.hero-container{
+    padding-top: 3em;
+}
+
+.hero-text{
+    font-weight: 500 !important;
+}
+
+.lead{
+    font-size: 1.5rem !important;
+}
+
+.presentation{
+    margin: 4rem 3rem 0rem 3rem;
+}
+
+.skill-bg{
+    background-color: rgb(39, 39, 39);
+    color:#fff;
+    border-radius: 12px;
+    margin: 0 2rem 0 2rem !important;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.icon-container{
+    margin-top: 2.0rem;
+    margin-bottom: 1.0rem;
+}
+
+.skill-icon{
+    width: 50px;
+    height: auto;
+    margin-bottom: 1rem;
+
+
+
+}
+
+.skills-hero{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    font-weight: 600 !important;
+}
+
+.game-item{
+    padding: 2rem 0 4rem 0;
+    border:0.5px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    cursor: pointer;
+}
+
+.swim-icon{
+    width: 60px !important;
+    margin-bottom: 1rem;
+
+}
+.beer-icon{
+    width: 40px !important;
+    margin-bottom: 1rem;
+
+}
+.burger-icon{
+    width: 55px !important;
+    margin-bottom: 1rem;
+}
+
+.game-item:hover .icon-text{
+    display: block;
+    transition: display 0.3s ease;
+
+
+}
+
+.icon-text{
+    transition: display 0.3s ease;
+    display: none;
+    margin: 0 !important;
+    position:absolute;
+    right:50%;
+    transform:translateX(50%);
+}
+
+.icon-color{
+    transition: fill 0.3s ease;
+}
+
+.game-item:hover .icon-color {
+    fill:#fff;
+    transition: 0.3s ease;
+}
+
+/* media query pour régler le footer sur les screens de grande taille*/
+@media (min-height: 845px) {
+  
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

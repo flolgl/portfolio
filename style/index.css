@@ -118,7 +118,7 @@
 
 }
 
-/* Border des colones quand screen trop petit*/
+/* Border des columns quand screen trop petit*/
 @media (max-width: 581px) {
     .col3{
         border-top:0.5px solid rgba(0,0,0,0.05);
@@ -135,4 +135,16 @@
 .skill-icon:hover, .grad-icon:hover{
     fill: #212529;
     transition: 0.3s ease;
+}
+
+.col a{
+    color:#dc7c00 !important;
+    text-decoration: none;
+    transition: color .3s ease;
+
+}
+
+.col a:hover{
+    color:#212529 !important;
+    transition: color .3s ease;
 }

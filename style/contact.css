@@ -121,6 +121,7 @@
 
 .submit-button:hover, .submit-button:focus {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    outline: none;
 }
 
 .submit-button:hover{
@@ -159,8 +160,12 @@
     margin: 0 auto !important;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* media query pour régler le footer sur les screens de grande taille*/
+@media (min-height: 845px) {
+  
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }

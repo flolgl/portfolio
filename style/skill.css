@@ -20,8 +20,7 @@
 
 .presentation{
     margin: 4rem 3rem 0rem 3rem;
-    position: relative;
-    z-index: -1;
+
 }
 
 .skill-bg{
@@ -47,20 +46,8 @@
     padding:1.5rem 0 3rem 0
 }
 
-.col1{
-    border-right:0.5px solid rgba(255, 255, 255, 0.05);
-    padding-bottom: 3rem;
-
-}
-.col2{
-    border-right:0.5px solid rgba(255, 255, 255, 0.05);
-    border-left:0.5px solid rgba(255, 255, 255, 0.05);
-    padding-bottom: 3rem;
-
-}
-.col3{
-    border-left:0.5px solid rgba(255, 255, 255, 0.05);
-    padding-bottom: 3rem;
+.col{
+    border:0.5px solid rgba(255, 255, 255, 0.05);
 
 }
 
@@ -106,6 +93,24 @@
 }
 .web-lvl{
     height: 50%;
+}
+.motivated-lvl{
+    height: 10%;
+}
+.patient-lvl{
+    height: 10%;
+}
+.serious-lvl{
+    height: 10%;
+}
+.spanish-lvl{
+    height: 50%;
+}
+.fr-lvl{
+    height: 0%;
+}
+.english-lvl{
+    height: 20%;
 }
 
 .skill-pourcentage{

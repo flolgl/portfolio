@@ -26,7 +26,9 @@ html{
     border:none !important;
     margin:0 !important;
 }
-
+.dropdown-item:active{
+    background-color: rgb(39, 39, 39) !important;
+}
 
 
 .link-nav{

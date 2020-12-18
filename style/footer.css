@@ -1,9 +1,11 @@
+/* Conteneur dans le footer */
 .footer-container{
     background-color: rgb(39, 39, 39);
     padding: 2rem 4rem 0 4rem !important;
     margin-top: 9rem;
 }
 
+/* Petite ligne grise dans le footer */
 .footer-container::before {
     background-color:rgb(62, 66, 68);;
     content: '';
@@ -14,13 +16,12 @@
     width: 70px;
 }
 
-.flex-footer{
-}
-
+/* Transition icones réseaux sociaux */
 .footer-icon{
     transition: fill 0.3s ease;
 }
 
+/* Transition icones réseaux sociaux en couleur blanche quand hover */
 .footer-link:hover .footer-icon{
     fill:#fff;
     transition: 0.3s ease;

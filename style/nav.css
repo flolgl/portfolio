@@ -1,3 +1,4 @@
+/* Généralités */
 body {
     min-width: 360px;
     margin:0;
@@ -5,32 +6,46 @@ body {
     border:0;
     font:inherit;
     box-sizing:border-box;
-    height: 100vh;
     color:#575e73;
 }
 html{
     font-family: "Poppins";
 }
 
+/* logo navbar */
 .container-fluid .navbar-brand img{
     width: auto;
     height: 50px;
 }
 
-
 .navbar-light .navbar-toggler {
 	color: rgba(0,0,0,.55);
+}
+
+/* Gestion sous-menu */
+.dropdown-item:active{
+    background-color: rgb(39, 39, 39) !important;
 }
 
 .dropdown-toggle::after{
     border:none !important;
     margin:0 !important;
 }
-.dropdown-item:active{
-    background-color: rgb(39, 39, 39) !important;
+
+/* bouton responsivness navbar*/ 
+
+.navbar-hamburger{
+    border:none !important;
+    box-shadow: 0;
+}
+
+.navbar-hamburger:focus{
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 
+/* retirer decoration ancre dans navbar */
 .link-nav{
     font-size: 17px;
     color:#333232;
@@ -39,11 +54,14 @@ html{
     text-align: center;
     position: relative;
 }
+
+/* Couleur ancres dans navbar quand hover */
 .link-nav:hover{
     color: #272727 !important;
 
 }
 
+/* Gestion responsivness */
 @media (min-width: 992px) {
     nav .container-fluid{
         position:relative;
@@ -80,15 +98,6 @@ html{
 
 }
 
-.navbar-hamburger{
-    border:none !important;
-    box-shadow: 0;
-}
-
-.navbar-hamburger:focus{
-    box-shadow: none !important;
-    outline: none !important;
-}
 
 
 @media (max-width: 992px) {

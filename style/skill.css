@@ -1,3 +1,4 @@
+/* Margin / Padding */
 .hero{
     margin: 3em;
 }
@@ -6,35 +7,12 @@
     padding-top: 3em;
 }
 
-.hero-text{
-    font-weight: 500 !important;
-}
-
 .hero-container{
     padding-top: 3em;
 }
 
-.hero-text{
-    font-weight: 500 !important;
-}
-
 .presentation{
     margin: 4rem 3rem 0rem 3rem;
-
-}
-
-.skill-bg{
-    background-color: rgb(39, 39, 39);
-    color:#fff;
-    border-radius: 12px;
-    margin: 0 2rem 0 2rem !important;
-    width: 100%;
-    max-width: 1100px;
-}
-
-.presentation-hero{
-    font-weight: 500 !important;
-    padding: 3rem 0 1rem 0;
 
 }
 
@@ -46,11 +24,48 @@
     padding:1.5rem 0 3rem 0
 }
 
+.skills-hero{
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.presentation-hero{
+    font-weight: 500 !important;
+    padding: 3rem 0 1rem 0;
+
+}
+
+/* changement police */
+.hero-text{
+    font-weight: 500 !important;
+}
+
+
+.hero-text{
+    font-weight: 500 !important;
+}
+
+
+/* Conteneur du tableau couleur et taille max */
+.skill-bg{
+    background-color: rgb(39, 39, 39);
+    color:#fff;
+    border-radius: 12px;
+    margin: 0 2rem 0 2rem !important;
+    width: 100%;
+    max-width: 1100px;
+}
+
+
+
+
+/* Bordure column */
 .col{
     border:0.5px solid rgba(255, 255, 255, 0.05);
 
 }
 
+/* Traitement icones */
 .skill-icon:hover, .grad-icon:hover{
     fill: #212529;
     transition: 0.3s ease;
@@ -64,11 +79,8 @@
 
 }
 
-.skills-hero{
-    margin-top: 1.5rem !important;
-    margin-bottom: 1.5rem !important;
-}
 
+/* Création et traitement barres de progression */
 .skill-bar{
     height: 40vh;
     width: 4rem;
@@ -113,6 +125,7 @@
     height: 20%;
 }
 
+/* Traitement et positionnement texte pourcentage barres de progression */
 .skill-pourcentage{
     position: absolute;
     margin-bottom: 0 !important;
@@ -121,6 +134,8 @@
     transform: translateX(50%);
     font-size: 1.5rem !important;
 }
+
+/* Bordure column quand screen plus petit */
 
 @media (max-width: 451px) {
     .col3{

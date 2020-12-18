@@ -1,3 +1,4 @@
+/* Margin / Padding */
 .hero{
     margin: 3em;
 }
@@ -6,6 +7,12 @@
     padding-top: 3em;
 }
 
+.presentation{
+    margin: 4rem 3rem 0rem 3rem;
+
+}
+
+/* changement police */
 .hero-text{
     font-weight: 500 !important;
 }
@@ -14,6 +21,7 @@
     font-size: 1.5rem !important;
 }
 
+/* Conteneur du tableau couleur et taille max */
 .skill-bg{
     background-color: rgb(39, 39, 39);
     color:#fff;
@@ -25,24 +33,21 @@
 
 }
 
-.presentation{
-    margin: 4rem 3rem 0rem 3rem;
-
-}
 
 
+/* Changement couleur tableau + margin */
 .table-school{
-    border-radius: 100px;
     margin-top: 2rem;
     --bs-table-hover-bg: rgb(39, 39, 39) !important;
     --bs-table-hover-color: #fff !important;
 }
 
+/* Curseur pointeur */
 tbody{
     cursor: pointer;
-
 }
 
+/* Couleur texte + déco */
 td a{
     color:inherit !important;
     text-decoration: none;

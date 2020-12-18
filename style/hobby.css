@@ -1,3 +1,4 @@
+/* Margin / Padding */
 .hero{
     margin: 3em;
 }
@@ -6,39 +7,13 @@
     padding-top: 3em;
 }
 
-.hero-text{
-    font-weight: 500 !important;
-}
-
-.lead{
-    font-size: 1.5rem !important;
-}
-
 .presentation{
     margin: 4rem 3rem 0rem 3rem;
-}
-
-.skill-bg{
-    background-color: rgb(39, 39, 39);
-    color:#fff;
-    border-radius: 12px;
-    margin: 0 2rem 0 2rem !important;
-    width: 100%;
-    max-width: 1100px;
 }
 
 .icon-container{
     margin-top: 2.0rem;
     margin-bottom: 1.0rem;
-}
-
-.skill-icon{
-    width: 50px;
-    height: auto;
-    margin-bottom: 1rem;
-
-
-
 }
 
 .skills-hero{
@@ -47,13 +22,16 @@
     font-weight: 600 !important;
 }
 
-.game-item{
-    padding: 2rem 0 4rem 0;
-    border:0.5px solid rgba(255, 255, 255, 0.05);
-    position: relative;
-    cursor: pointer;
+/* changement police */
+.hero-text{
+    font-weight: 500 !important;
 }
 
+.lead{
+    font-size: 1.5rem !important;
+}
+
+/* Taille icones */
 .swim-icon{
     width: 60px !important;
     margin-bottom: 1rem;
@@ -69,13 +47,38 @@
     margin-bottom: 1rem;
 }
 
+.skill-icon{
+    width: 50px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+.skill-bg{
+    background-color: rgb(39, 39, 39);
+    color:#fff;
+    border-radius: 12px;
+    margin: 0 2rem 0 2rem !important;
+    width: 100%;
+    max-width: 1100px;
+}
+
+/* Conteneur icones */
+.game-item{
+    padding: 2rem 0 4rem 0;
+    border:0.5px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* Affichage text quand hover */
 .game-item:hover .icon-text{
     display: block;
     transition: display 0.3s ease;
-
-
 }
 
+/* Position texte */
 .icon-text{
     transition: display 0.3s ease;
     display: none;
@@ -85,6 +88,7 @@
     transform:translateX(50%);
 }
 
+/* Transition couleurs */
 .icon-color{
     transition: fill 0.3s ease;
 }

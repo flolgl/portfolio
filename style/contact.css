@@ -1,13 +1,16 @@
-.mb-4{
-    margin:3em;
+/*Margin pour conteneur contact*/
+.contact-section {
+    margin: 3em 3em 1.5rem 3em !important;
 }
 
+/*Conteneur de l'input*/
 .md-form {
     position: relative;
     padding: 15px 0 0;
     margin-top: 10px;
 }
 
+/*L'input*/
 .form-field{
     border:0 !important;
     border-bottom: 2px solid rgba(0,0,0,.55) !important;
@@ -17,11 +20,13 @@
     transition: border-color 0.2s;
 }
 
+/*L'input quand il est clické */
 .form-field:focus{
     box-shadow: none !important;
     border-color: #272727 !important;
 }
 
+/*Le label de l'input*/
 .form-label{
 	position: absolute;
 	top: 0;
@@ -34,6 +39,7 @@
 
 }
 
+/* Transition de l'input*/
 .form-field:focus ~ .form-label{
 	position: absolute !important;
 	top: 0 !important;
@@ -44,10 +50,12 @@
 	font-weight: 300 !important;
 }
 
+/*Faire disparaitre l'input*/
 .form-field::placeholder{
     color: transparent !important;
 }
 
+/*Récupérer l'event de si du texte est écrit dans l'input*/
 .form-field:placeholder-shown ~ .form-label {
     position: absolute;
     top: 20px;
@@ -58,16 +66,16 @@
     font-size: 1rem;
 
 }
-
+/* Enlever css bootstrap*/
 .form-label:required, .form-label:invalid {
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
-
+/* Espace */
 .contact-form{
     margin-bottom: 3rem;
 }
-
+/* Animation bouton */
 @-webkit-keyframes short-press {
   0% {
     -webkit-transform: scale(1);
@@ -99,7 +107,8 @@
 .hide {
     display: none;
 }
-  
+
+/* Bouton */
 .submit-button {
     display: block;
     font-weight: 600;
@@ -119,15 +128,18 @@
     transition: all .3s ease;
 }
 
+/* Changement Bouton quand focus et hover */
 .submit-button:hover, .submit-button:focus {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     outline: none;
 }
 
+/* Changement couleur Bouton quand hover */
 .submit-button:hover{
     background-color: #272727;
 }
 
+/* Animation bouton */
 .submit-button.animated {
     -webkit-animation: 0.75s short-press cubic-bezier(0.77, 0, 0.175, 1) forwards;
     animation: 0.75s short-press cubic-bezier(0.77, 0, 0.175, 1) forwards;
@@ -155,10 +167,6 @@
 }
   
 
-.col-centered{
-    float: none !important;
-    margin: 0 auto !important;
-}
 
 /* media query pour régler le footer sur les screens de grande taille*/
 @media (min-height: 845px) {

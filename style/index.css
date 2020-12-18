@@ -1,3 +1,4 @@
+/* Margin/Padding */
 .hero{
     margin: 3em;
 }
@@ -6,6 +7,7 @@
     padding-top: 3em;
 }
 
+/* changement police */
 .hero-text{
     font-weight: 500 !important;
 }
@@ -14,8 +16,7 @@
     font-size: 1.5rem !important;
 }
 
-
-
+/* Responsivness avatar*/
 @media (min-width: 992px) {
     .avatar{
         width: 260px;
@@ -29,7 +30,7 @@
 }
 
 
-    
+/* Présentation des 3 pages*/
 .presentation{
     margin: 9rem 3rem 0rem 3rem;
     position: relative;
@@ -54,6 +55,7 @@
     padding: 0 0 9rem 0;
 }
 
+/*Placement de l'avatar*/
 .avatar-container{
     position:absolute;
     top: 0%;
@@ -62,11 +64,13 @@
     z-index: 2;
 }
 
+/*Placement de la presentation des skills */
 .skills-hobby{
     margin: -10rem 3rem 3rem 3rem;
     padding: 4rem 5rem 0 5rem;
 }
 
+/*Taille de la presentation des skills */
 .skill-container{
     max-width: 1200px;
     margin: 0 10rem;
@@ -76,6 +80,7 @@
 
 }
 
+/*Taille, etc... des icons des skills */
 .skill-icon{
     width: 50px;
     height: auto;
@@ -84,6 +89,7 @@
 
 }
 
+/*Taille, etc... des icons des skills */
 .grad-icon{
     width: 60px;
     height: auto;
@@ -97,10 +103,12 @@
     margin-bottom: 1.5rem;
 }
 
+/*Texte dans la presentation des skills */
 .skills-hero{
     font-weight: 600 !important;
 }
 
+/* Bordures des columns */
 .col1{
     border-right:0.5px solid rgba(0,0,0,0.05);
     padding-bottom: 3rem;
@@ -132,11 +140,14 @@
     
     }
 }
+
+/*Changement couleur des icones */
 .skill-icon:hover, .grad-icon:hover{
     fill: #212529;
     transition: 0.3s ease;
 }
 
+/* Couleur et tout d'un ancre dans class col */
 .col a{
     color:#dc7c00 !important;
     text-decoration: none;
@@ -144,6 +155,7 @@
 
 }
 
+/* Couleur et tout d'un ancre dans class col quand hover */
 .col a:hover{
     color:#212529 !important;
     transition: color .3s ease;
